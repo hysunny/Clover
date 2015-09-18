@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    tools:context="com.clover.ui.LoverManagerActivity">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top" />
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:background="@color/white_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_toolbar"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_lovername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:hint="@string/input_lover_username" />
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/search"
+            android:background="@drawable/btn_login_selector" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_search_result"
+        android:background="@color/white_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="invisible"
+        android:layout_below="@id/ll_search">
+
+        <ImageView
+            android:id="@+id/iv_result"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/photo" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="123456"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_bind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/bind" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

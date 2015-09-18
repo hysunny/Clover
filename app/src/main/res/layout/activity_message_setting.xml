@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clover.ui.MessageSettingActivity">
+
+    <include layout="@layout/toolbar_layout"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_height="46dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/layout_toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/switch_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:padding="10dip" >
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/voice" />
+
+        <ImageView
+            android:id="@+id/openvoice"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/on"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/closevoice"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/off"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_line_width_2"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/switch_shake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:padding="10dip" >
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/shake" />
+
+        <ImageView
+            android:id="@+id/openshake"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/on"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/closeshake"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/off"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

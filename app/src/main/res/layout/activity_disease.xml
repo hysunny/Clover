@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.clover.ui.DiseaseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include layout="@layout/toolbar_layout"/>
+        <ImageView
+            android:id="@+id/pic_disease"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/fine_disease"/>
+    <LinearLayout
+        android:id="@+id/DrugReminderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/loverhealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="@string/diseasereminder"/>
+        <Button
+            android:id="@+id/sendDrugReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/drugreminder"/>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/diseaseReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_selector"
+        android:text="@string/disease_come_msg"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clover.ui.MensesActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+    <ImageView
+    android:id="@+id/pic_menses"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="10dp"
+    android:background="@mipmap/fine_menses"/>
+    <LinearLayout
+        android:id="@+id/MensesReminderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/loverhealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="@string/lovermenses"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/sendmensesmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_selector"
+        android:textColor="#fff"
+        android:text="@string/menses_tell_msg"/>
+
+</LinearLayout>

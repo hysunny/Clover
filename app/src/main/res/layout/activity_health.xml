@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.clover.HealthActivity">
+   <include layout="@layout/toolbar_layout"/>
+        <RelativeLayout
+            android:id="@+id/layout_menses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_selector"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/Smile.TextView._Black"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/menses"
+                android:paddingLeft="15dp" />
+
+            <ImageView
+                style="@style/Smile.ImageView"
+                android:layout_width="18dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@drawable/register_bottom_arrow" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_disease"
+            android:layout_width="match_parent"
+            android:background="@drawable/tv_selector"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_loverinfo_title"
+                style="@style/Smile.TextView._Black"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:text="@string/disease" />
+
+            <ImageView
+                android:id="@+id/iv_right_vg"
+                style="@style/Smile.ImageView"
+                android:layout_width="18dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/action_settings"
+                android:paddingRight="10dp"
+                android:src="@drawable/register_bottom_arrow" />
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

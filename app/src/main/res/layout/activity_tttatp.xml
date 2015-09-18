@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.clover.ui.TTTATPActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:rowCount="3"
+        android:columnCount="3" >
+        　　<Button
+        android:id="@+id/one"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　<Button
+        android:id="@+id/two"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　　<Button
+        android:id="@+id/three"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　
+        　　<Button
+        android:id="@+id/four"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　<Button
+        android:id="@+id/five"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　<Button
+        android:id="@+id/six"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　<Button
+        android:id="@+id/seven"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　　<Button
+        android:id="@+id/eight"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        　<Button
+        android:id="@+id/nine"
+        android:onClick="clickBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""/>
+        <Button
+            android:id="@+id/restart"
+            android:onClick="clickBtnRestart"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/TTTA_Game_Layout_ReStart"/>
+        　
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scoreArray">
+        <item>搭讪</item>
+        <item>暧昧</item>
+        <item>约会</item>
+        <item>表白</item>
+        <item>恋爱</item>
+        <item>牵手</item>
+        <item>拥抱</item>
+        <item>接吻</item>
+        <item>求婚</item>
+        <item>幸福</item>
+        <item>相濡以沫</item>
+    </string-array>
+
+    <string-array name="process">
+        <item>搭讪</item>
+        <item>暧昧</item>
+        <item>约会</item>
+        <item>表白</item>
+        <item>恋爱</item>
+        <item>牵手</item>
+        <item>拥抱</item>
+        <item>接吻</item>
+        <item>求婚</item>
+        <item>见家长</item>
+        <item>结婚</item>
+        <item>蜜月</item>
+        <item>铜婚</item>
+        <item>银婚</item>
+        <item>金婚</item>
+        <item></item>
+    </string-array>
+</resources>

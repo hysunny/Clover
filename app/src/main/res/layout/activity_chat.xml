@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/top_toolbar_color" >
+
+    <include layout="@layout/toolbar_layout"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_height="46dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/layout_toolbar"/>
+
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/material_green_A200"
+        android:layout_alignParentBottom="true" >
+        <EditText
+            android:id="@+id/et_sendmessage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/send_message" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/layout_toolbar"
+    android:layout_above="@id/rl_bottom">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:cacheColorHint="#00000000"
+        android:layout_gravity="bottom"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:scrollbars="none" />
+</LinearLayout>
+
+
+
+
+</RelativeLayout>

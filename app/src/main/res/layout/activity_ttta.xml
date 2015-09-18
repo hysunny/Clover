@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clover.ui.TTTAActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/btn_start_two"
+            android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/set"
+            android:text="@string/play_with_lover"
+            android:onClick="startTwoPeople"
+            />
+
+        <Button
+            android:id="@+id/btn_start_c"
+            android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/set"
+            android:text="@string/play_alone"
+            android:layout_below="@id/btn_start_two"
+            android:layout_marginTop="30dp"
+            android:onClick="startPlayWithComputer"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

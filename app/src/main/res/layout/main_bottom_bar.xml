@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/toolbar_bg_color"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/chart_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:text="@string/lover_chat"
+        android:background="@drawable/btn_login_selector"
+        android:textColor="#ffffff"
+        android:textSize="26.0dip" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="32dp"
+        android:background="@color/material_green_A200"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/space_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:text="@string/space"
+        android:background="@drawable/btn_login_selector"
+        android:textColor="#ffffff"
+        android:textSize="26.0dip" />
+
+
+</LinearLayout>

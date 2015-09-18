@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/normalword"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal|center"
+        android:textColor="#FF9900"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/normalresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center"
+        android:textColor="#CC9966"
+        android:textSize="75sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

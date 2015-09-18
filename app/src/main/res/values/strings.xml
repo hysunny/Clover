@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Clover</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="TimeUntilNow">我们已经相爱</string>
+    <string name="Days">天</string>
+    <string name="anniversary">纪念日</string>
+ <string name="anniversaryname">纪念日名称</string>
+    <string name="age">岁</string>
+<string name="save">保存</string>
+    <string name="editUserInfo">编辑资料</string>
+    <string name="mylover">我的情侣</string>
+    <string name="setting">设置</string>
+    <string name="quit">退出</string>
+    <string name="network_tips">当前网络不可用,请检查您的网络!</string>
+    <string name="sleeping">正在睡觉</string>
+    <string name="getupreminder">发送闹钟</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="sorryforquery">未获取到数据</string>
+    <string name="kindreminder">温馨提示</string>
+    <string name="getuprenminder">对方睡觉，是否叫醒对方</string>
+    <string name="makesure">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="sleep_msg">我睡觉了</string>
+<string name="getup_send">我起床了</string>
+    <string name="getup_mas">该起床了</string>
+    <string name="eat_msg">我吃饭去了</string>
+    <string name="game_msg">我在玩游戏</string>
+    <string name="shop_msg">我在逛街</string>
+    <string name="miss_msg">我想你了</string>
+    <string name="apologize_msg">我错了</string>
+    <string name="boring_msg">好无聊呀</string>
+    <string name="do_msg">你在做什么呀</string>
+    <string name="kiss_msg">亲亲</string>
+    <string name="hug_msg">抱抱</string>
+    <string name="miao_msg">喵喵</string>
+    <string name="wang_msg">汪汪</string>
+    <string name="menses_coming_msg">大姨妈来了</string>
+    <string name="menses_going_msg">大姨妈走了</string>
+
+    <string name="menses_tell_msg">告诉他，姨妈来了</string>
+    <string name="menses_gone_msg">告诉他，姨妈走了</string>
+<string name="lovermenses">您的恋人大姨妈来了</string>
+  <string name="disease_come_msg">告诉他,我生病了</string>
+    <string name="disease_gone_msg">告诉他,病好了</string>
+    <string name="drugreminder">记得吃药</string>
+    <string name="diseasereminder">您的恋人生病了</string>
+    <string name="eatdrug">该吃药了</string>
+    
+ <string name="menses">大姨妈提醒</string>
+    <string name="disease">生病提醒</string>
+
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="add_name_hint">请输入昵称&#8230;</string>
+    <string name="add_age">年龄</string>
+    <string name="add_sex">性别</string>
+    <string name="blacklist">黑名单</string>
+    <string name="chat">发起会话</string>
+    <string name="add_friend">添加好友</string>
+    <string name="black_tips">已添加至黑名单，你将不再收到对方的消息!</string>
+    <string name="takephoto">拍照</string>
+    <string name="choosefrommibile">从相册选择</string>
+    <string name="finish">完成</string>
+    <string name="inputnick">请输入昵称</string>
+    <string name="pleaseinputnick">请输入昵称</string>
+    <string name="updatesuccess">修改成功</string>
+    <string name="updatefailure">修改失败</string>
+    <string name="wrongbirthdate">您输入的出生日期在今天之后，这是不可能的，请重新输入</string>
+    <string name="pleaseselectsex">请选择性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <string name="changepassword">修改密码</string>
+    <string name="messagesetting">消息通知</string>
+
+    <string name="oldpassword">旧密码</string>
+    <string name="newpaswword">新密码</string>
+    <string name="repeatnewpsd">确认密码</string>
+    <string name="inputoldpassword">请输入旧密码</string>
+    <string name="inputnewpassword">请输入新密码</string>
+    <string name="repeatnewpassword">请再次输入新密码</string>
+    <string name="wrongoldpassword">旧密码错误</string>
+    <string name="differentpsd">两次密码不符</string>
+
+    <string name="voice">声音</string>
+    <string name="shake">振动</string>
+
+    <string name="uploadmoodsuc">发布成功</string>
+    <string name="uploadmoodfai">发布失败</string>
+    <string name="title_activity_add_mood">添加动态</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_anniversary">纪念日</string>
+    <string name="title_activity_health">健康</string>
+    <string name="title_activity_disease">疾病</string>
+    <string name="title_activity_lover_manager">LoverManagerActivity</string>
+    <string name="title_activity_user_info_update">个人资料</string>
+    <string name="title_activity_chat">聊天</string>
+    <string name="title_activity_ttta">TTTAActivity</string>
+    <string name="title_activity_tzfe">TZFEActivity</string>
+    <string name="title_activity_space">情侣空间</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_menses">大姨妈</string>
+    <string name="title_activity_update_user_nick">修改昵称</string>
+    <string name="title_activity_change_password">修改密码</string>
+    <string name="title_activity_message_setting">消息通知</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+
+
+
+
+    <string name="TZFEActivity_Game_InitScore">搭讪</string>
+    <string name="TZFEActivity_Game_BestScore">相濡以沫</string>
+    <string name="TZFEActivity_Game_ResultContent1">你们的爱情达到</string>
+    <string name="TZFEActivity_Game_ResultTitle1">新纪录！！！</string>
+    <string name="TZFEActivity_Game_MakeSure">再爱一次</string>
+    <string name="TZFEActivity_Game_Cancel">取消</string>
+    <string name="TZFEActivity_Game_ResultContent2">你们的爱情死在了</string>
+    <string name="TZFEActivity_Game_ResultTitle2">很遗憾</string>
+    <string name="TZFEActivity_Game_ResultContent3">你们</string>
+    <string name="TZFEActivity_Game_ResultTitle3">恭喜</string>
+    
+    <string name="getupgetup">对方正在睡觉，确认叫醒对方</string>
+    <string name="TTTActivity_Game_AlertTitle">游戏邀请</string>
+    <string name="TTTActivity_Game_AlertContent">对方邀请你一起玩TicTocTae游戏~是否同意？</string>
+    <string name="TTTActivity_Game_AlertRefuse">残忍拒绝</string>
+    <string name="TTTActivity_Game_AlertSure">同意</string>
+    <string name="TTTActivity_Game_InviteMsg">邀请已发送！等待对方回应~</string>
+
+    <string name="TSwapActivity_Game_AlertSure">确定</string>
+    <string name="TSwapActivity_Game_AlertTitle">提示</string>
+    <string name="TSwapActivity_Game_AlertMsg">您已使用过一次帮助，不能再使用帮助</string>
+
+
+    <string name="TTTA_Game_AlertSure">再来一局</string>
+    <string name="TTTA_Game_AlertCancel">取消</string>
+    <string name="TTTA_Game_AlertMsg1">你俩势均力敌！再来一局吧~</string>
+    <string name="TTTA_Game_AlertMsg2">你输了~〒_〒~</string>
+    <string name="TTTA_Game_AlertMsg3">你赢啦!快去安慰一下TA吧~</string>
+    <string name="TTTA_Game_AlertMsg4">你赢啦!</string>
+    <string name="TTTA_Game_AlertTitle">通知</string>
+    <string name="TTTA_Game_AlertRefuse">拒绝</string>
+    <string name="TTTA_Game_PlaceMsg">请选择空位置放置</string>
+    <string name="TTTA_Game_ReStartMsg">对方请求重新开始，是否同意？</string>
+
+    <string name="TTTA_Game_Layout_ReStart">重新开始</string>
+    <string name="TTTA_Game_Invite">对方发来游戏邀请~快去看看吧~</string>
+    <string name="TTTA_Game_Invited">对方接收游戏邀请~游戏马上开始~</string>
+
+
+
+    <string name="TSwap_Game_title">对方接收游戏邀请~游戏马上开始~</string>
+    <string name="title_activity_tswap">TSwapActivity</string>
+
+    <string name="Game_Title_Tictactoe">Tic-Tac-Toe</string>
+    <string name="Game_Title_my2048">情侣版2048</string>
+    <string name="Game_Title_my2048Desc">情侣版</string>
+    <string name="Game_Title_my2048ReStart">重新开始</string>
+    <string name="Game_Title_Tswap">爱情阶梯</string>
+
+    <string name="Game_Title_TswapDesc1">爱情的15个阶段：搭讪、暧昧、约会、表白、恋爱、牵手、拥抱、接吻、求婚、见家长、结婚、蜜月、铜婚、银婚、金婚</string>
+    <string name="Game_Title_TswapDesc2">不知道的赶紧get起来吧~</string>
+
+    <string name="Game_item1">搭讪</string>
+    <string name="Game_item2">暧昧</string>
+    <string name="Game_item3">约会</string>
+    <string name="Game_item4">表白</string>
+    <string name="Game_item5">恋爱</string>
+    <string name="Game_item6">牵手</string>
+    <string name="Game_item7">拥抱</string>
+    <string name="Game_item8">接吻</string>
+    <string name="Game_item9">求婚</string>
+    <string name="Game_item10">见家长</string>
+    <string name="Game_item11">结婚</string>
+    <string name="Game_item12">蜜月</string>
+    <string name="Game_item13">铜婚</string>
+    <string name="Game_item14">银婚</string>
+    <string name="Game_item15">金婚</string>
+
+    <string name="title_activity_tttatp">TTTATPActivity</string>
+    <string name="title_activity_tttapwc">TTTAPWCActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="about">by HWHF</string>
+    <string name="publish_mood">发布</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="no_account">还没有账号</string>
+    <string name="register">立即注册</string>
+    <string name="input_lover_username">请输入对方的账号名</string>
+    <string name="search">搜索</string>
+    <string name="bind">绑定</string>
+    <string name="main_page">首页</string>
+    <string name="game">游戏</string>
+    <string name="user_info">资料</string>
+    <string name="account">账号</string>
+    <string name="nick">昵称</string>
+    <string name="input_nick">请输入昵称</string>
+    <string name="password">密码</string>
+    <string name="password_again">确认密码</string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="play_alone">自己玩</string>
+    <string name="play_with_lover">和TA玩</string>
+    <string name="update_user_info">编辑个人资料</string>
+    <string name="lover_info">情侣信息</string>
+    <string name="about_us">关于我们</string>
+    <string name="logout">退出</string>
+    <string name="space">空间</string>
+    <string name="lover_chat">聊天</string>
+
+</resources>

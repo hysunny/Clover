@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_marginLeft="38dp"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="2015.7.6"
+            android:textSize="18sp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tv_mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_mood"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/mood_pic"
+            android:focusable="false" />
+
+    </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="43dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey2_bg"/>
+
+
+</LinearLayout>

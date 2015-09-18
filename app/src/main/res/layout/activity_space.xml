@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.clover.ui.SpaceActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:id="@+id/topbar"
+        android:background="@color/toolbar_bg_color"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/iv_back_selector" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/add_mood_selector"/>
+
+    </RelativeLayout>
+
+
+
+    <com.clover.view.XListView
+        android:id="@+id/lv_mood"
+        android:layout_below="@id/topbar"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:scrollbars="none"
+        android:cacheColorHint="#00000000"
+        android:layout_height="fill_parent">
+        </com.clover.view.XListView>
+
+    <ImageView
+        android:layout_marginLeft="40dp"
+        android:layout_width="3dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/toolbar_bg_color"
+        android:focusable="false" />
+
+</RelativeLayout>

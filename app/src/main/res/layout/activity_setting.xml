@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clover.ui.SettingActivity">
+    <include layout="@layout/toolbar_layout"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_height="46dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/layout_toolbar"/>
+    <RelativeLayout
+        android:id="@+id/layout_changepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:minHeight="50dp"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/changepassword" />
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/register_bottom_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_line_width_2"
+        android:background="@drawable/base_horizontal_line" >
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/layout_messagesetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:minHeight="50dp"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/messagesetting" />
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/register_bottom_arrow" />
+    </RelativeLayout>
+
+
+</LinearLayout>

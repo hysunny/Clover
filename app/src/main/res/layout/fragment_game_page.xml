@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fdf9f9" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/about_mid_bg"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/Game_Title_Tictactoe"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:drawablePadding="10dp"/>
+        <Button
+            android:id="@+id/ticTacToe"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/begin"
+            android:layout_alignParentRight="true"
+            android:contentDescription="Settings"
+            android:layout_margin="1dp"
+
+            android:onClick="onGameClick"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/about_mid_bg"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:text="@string/Game_Title_my2048"
+            android:drawablePadding="10dp"/>
+        <Button
+            android:id="@+id/my2048"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/begin"
+            android:onClick="onGameClick"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/about_mid_bg"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/Game_Title_Tswap"
+            android:drawablePadding="10dp"/>
+        <Button
+            android:id="@+id/swapGame"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/begin"
+            android:onClick="onGameClick"/>
+
+    </RelativeLayout>
+</LinearLayout>

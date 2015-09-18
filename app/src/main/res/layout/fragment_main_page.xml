@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/layout_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_background"/>
+
+        <LinearLayout
+            android:id="@+id/sleep_reminder_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+            <include layout="@layout/include_interact_sleep_reminder"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/getup_reminder_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+            <include layout="@layout/include_interact_getup_reminder"/>
+        </LinearLayout>
+        </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/big_lay"
+        android:layout_below="@id/layout_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/anniversary"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/btn_ann_selector"/>
+            <Button
+                android:id="@+id/health"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_health_selector"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/big_lay"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/SleepReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_p1_selector"/>
+        <Button
+            android:id="@+id/EatReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/btn_p2_selector"/>
+        <Button
+            android:id="@+id/MissReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_p3_selector"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/ApologizeReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/btn_p4_selector"/>
+        <Button
+            android:id="@+id/KissReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_p5_selector"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/HugReminder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/btn_p6_selector"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/GameReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_p7_selector"/>
+            <Button
+                android:id="@+id/ShopReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_p8_selector"/>
+            <Button
+                android:id="@+id/BoringReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_p9_selector"/>
+            <Button
+                android:id="@+id/DoReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_p10_selector"/>
+            <Button
+                android:id="@+id/MiaoReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_p11_selector"/>
+            <Button
+                android:id="@+id/WangReminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_p12_selector"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    <!--
+
+
+
+
+
+-->
+
+
+</RelativeLayout>

@@ -1,0 +1,257 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.clover.ui.TZFEActivity"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="@string/Game_Title_my2048Desc"
+                android:textColor="#8B393B"
+                android:textStyle="bold"
+                android:textSize="26sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.8"
+                android:gravity="center"
+
+                android:text="2048"
+                android:textStyle="bold"
+                android:textColor="#8B393B"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/scoretext"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/score"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#8B393B"
+            android:paddingTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bestscoretext"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/bestscore"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#8B393B"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/newgame"
+            android:layout_width="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/restar"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.3" >
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+
+        android:orientation="vertical"
+
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:layout_margin="30dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_card00"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_card01"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_card02"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card03"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_card10"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_card11"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card12"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card13"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_card20"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card21"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card22"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card23"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_card30"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_card31"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card32"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/tv_card33"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/transparent"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
